@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Dentpure - The Internal Solution for Total Oral Health</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&amp;family=Open+Sans:wght@400;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        primary: "#FFD700", // Gold/Yellow from CTA buttons
+                        "primary-hover": "#e6c200",
+                        "secondary": "#2D3E50", // Dark blue from header/footer
+                        "accent": "#4A90E2", // Light blue used in sections
+                        "background-light": "#F0F4F8",
+                        "background-dark": "#1a202c",
+                        "surface-light": "#FFFFFF",
+                        "surface-dark": "#2D3748",
+                        "text-light": "#2D3E50",
+                        "text-dark": "#E2E8F0",
+                    },
+                    fontFamily: {
+                        display: ["Montserrat", "sans-serif"],
+                        body: ["Open Sans", "sans-serif"],
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.5rem",
+                        'xl': '1rem',
+                        '2xl': '1.5rem',
+                    },
+                },
+            },
+        };
+    </script>
+<style>
+        .hero-bg {
+            background: radial-gradient(circle at center, #0a1929 0%, #000000 100%);
+        }
+        .blue-gradient {
+            background: linear-gradient(180deg, #E3F2FD 0%, #BBDEFB 100%);
+        }
+        .dark .blue-gradient {
+            background: linear-gradient(180deg, #1e293b 0%, #0f172a 100%);
+        }
+        .best-value-bg {
+            background: linear-gradient(180deg, #4A90E2 0%, #357ABD 100%);
+        }
+        @keyframes rotate {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+        .rotate-seal {
+            animation: rotate 20s linear infinite;
+        }
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+        }
+    </style>
+</head>
+<body class="font-body bg-background-light dark:bg-background-dark text-text-light dark:text-text-dark antialiased transition-colors duration-300">
+<nav class="bg-black text-white py-4 px-6 fixed w-full top-0 z-50 border-b border-gray-800">
+<div class="max-w-7xl mx-auto flex justify-between items-center">
+<div class="font-display font-bold text-2xl tracking-tight flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">dentistry</span> Dentpure
+        </div>
+<div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+<a class="hover:text-primary transition" href="#science">The Science</a>
+<a class="hover:text-primary transition" href="#benefits">Benefits</a>
+<a class="hover:text-primary transition" href="#ingredients">Ingredients</a>
+<a class="hover:text-primary transition" href="#reviews">Reviews</a>
+<a class="hover:text-primary transition" href="#faq">FAQ</a>
+<a class="bg-primary text-black px-6 py-2 rounded-full font-bold hover:bg-primary-hover transition shadow-lg hover:shadow-xl transform hover:-translate-y-0.5" href="https://61f58kql-7k3vce3ml0owcgubv.hop.clickbank.net">Order Now</a>
+</div>
+<button class="md:hidden text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</nav>
+<header class="hero-bg text-white pt-32 pb-24 px-6 relative overflow-hidden">
+<div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center relative z-10">
+<div>
+<div class="inline-block bg-blue-900/50 backdrop-blur-sm px-4 py-1 rounded-full border border-blue-700 text-blue-200 text-sm font-semibold mb-6">
+<span class="text-primary mr-1">★</span> The Natural Oral Supplement Solution
+            </div>
+<h1 class="font-display font-bold text-4xl md:text-5xl lg:text-6xl leading-tight mb-6 text-shadow">
+                Transform Your Oral Health From The Inside Out
+            </h1>
+<p class="text-gray-300 text-lg mb-8 leading-relaxed max-w-lg">
+                Stop treating just the symptoms. Dentpure targets the root cause of gum inflammation and bad breath by rebalancing your oral microbiome with potent natural ingredients.
+            </p>
+<div class="flex flex-col sm:flex-row gap-4">
+<a class="inline-flex justify-center items-center gap-2 bg-primary text-black font-display font-bold text-lg px-8 py-4 rounded-full hover:bg-primary-hover transition transform hover:scale-105 shadow-lg w-full sm:w-auto text-center" href="https://61f58kql-7k3vce3ml0owcgubv.hop.clickbank.net">
+                    Start Your Transformation
+                    <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+<a class="inline-flex justify-center items-center gap-2 bg-transparent border-2 border-white text-white font-display font-bold text-lg px-8 py-4 rounded-full hover:bg-white/10 transition w-full sm:w-auto text-center" href="#science">
+                    How It Works
+                </a>
+</div>
+<div class="mt-8 flex items-center gap-4 text-sm text-gray-400">
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-green-500 text-lg">check_circle</span> 100% Natural
+                </div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-green-500 text-lg">check_circle</span> Doctor Formulated
+                </div>
+<div class="flex items-center gap-1">
+<span class="material-symbols-outlined text-green-500 text-lg">check_circle</span> GMP Certified
+                </div>
+</div>
+</div>
+<div class="flex justify-center relative">
+<div class="absolute inset-0 bg-blue-500 opacity-20 blur-3xl rounded-full animate-pulse"></div>
+<img alt="Dentpure Bottle Product Shot showing capsule supplement for oral health" class="relative z-10 max-w-full h-auto drop-shadow-2xl transform rotate-3 hover:rotate-0 transition duration-500" src="images/1-bottle.webp"/>
+</div>
+</div>
+</header>
+<section class="py-16 px-6 bg-blue-50 dark:bg-gray-900 text-center relative" id="science">
+<div class="max-w-4xl mx-auto">
+<h2 class="font-display font-bold text-3xl md:text-4xl text-blue-900 dark:text-blue-100 mb-6">
+            The Silent Threat: <span class="text-red-500">Harmful Bacteria</span>
+</h2>
+<p class="text-gray-600 dark:text-gray-300 text-lg leading-relaxed mb-8">
+            Modern diets and lifestyle can disrupt the delicate balance of your mouth's ecosystem, allowing harmful bacteria to thrive. These invaders cause <strong>gum inflammation</strong>, <strong>persistent bad breath</strong>, and <strong>weakened enamel</strong>. Traditional toothpaste and mouthwash only clean the surface—they don't solve the internal imbalance.
+        </p>
+<div class="bg-white dark:bg-surface-dark p-6 rounded-2xl shadow-md border-l-4 border-blue-500 inline-block text-left">
+<h3 class="font-bold text-xl mb-2 text-blue-800 dark:text-white flex items-center gap-2">
+<span class="material-symbols-outlined">lightbulb</span> The Dentpure Solution
+            </h3>
+<p class="text-gray-600 dark:text-gray-400">
+                Dentpure repopulates your mouth with beneficial probiotic strains and vital nutrients, creating an environment where healthy gums and strong teeth can flourish naturally from within.
+            </p>
+</div>
+</div>
+</section>
+<section class="py-20 px-6 bg-white dark:bg-gray-800" id="benefits">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<h2 class="font-display font-bold text-3xl md:text-4xl text-blue-900 dark:text-white mb-4">
+                Total Oral Restoration Benefits
+            </h2>
+<p class="text-gray-600 dark:text-gray-400 max-w-2xl mx-auto">
+                Discover how a daily capsule can replace expensive treatments and restore your confidence with a scientifically backed formula.
+            </p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-background-light dark:bg-surface-dark p-8 rounded-2xl text-center shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent dark:border-gray-700 hover:-translate-y-2">
+<div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 dark:text-blue-400 text-3xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">microbiology</span>
+</div>
+<h3 class="font-display font-bold text-xl mb-3 text-blue-900 dark:text-white">Balances Oral Microbiome</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Floods your mouth with beneficial bacteria that crowd out the harmful strains responsible for decay and disease.
+                </p>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-8 rounded-2xl text-center shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent dark:border-gray-700 hover:-translate-y-2">
+<div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 dark:text-blue-400 text-3xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">bubbles</span>
+</div>
+<h3 class="font-display font-bold text-xl mb-3 text-blue-900 dark:text-white">Reduces Gum Inflammation</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Potent anti-inflammatory ingredients soothe swollen, red gums and help stop bleeding, promoting a healthy pink appearance.
+                </p>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-8 rounded-2xl text-center shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent dark:border-gray-700 hover:-translate-y-2">
+<div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 dark:text-blue-400 text-3xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">diamond</span>
+</div>
+<h3 class="font-display font-bold text-xl mb-3 text-blue-900 dark:text-white">Strengthens Teeth from Within</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Delivers essential minerals that reinforce tooth structure and enamel density, protecting against sensitivity and fractures.
+                </p>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-8 rounded-2xl text-center shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent dark:border-gray-700 hover:-translate-y-2">
+<div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 dark:text-blue-400 text-3xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">air</span>
+</div>
+<h3 class="font-display font-bold text-xl mb-3 text-blue-900 dark:text-white">Long-Lasting Fresh Breath</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Eliminates odor-causing bacteria at the source rather than just masking the smell with minty flavors.
+                </p>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-8 rounded-2xl text-center shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent dark:border-gray-700 hover:-translate-y-2">
+<div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 dark:text-blue-400 text-3xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">shield_moon</span>
+</div>
+<h3 class="font-display font-bold text-xl mb-3 text-blue-900 dark:text-white">Support While You Sleep</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Works overnight to repair tissues and reset your oral environment so you wake up feeling fresh and clean.
+                </p>
+</div>
+<div class="bg-background-light dark:bg-surface-dark p-8 rounded-2xl text-center shadow-sm hover:shadow-xl transition-all duration-300 group border border-transparent dark:border-gray-700 hover:-translate-y-2">
+<div class="w-16 h-16 bg-blue-100 dark:bg-blue-900/30 rounded-full flex items-center justify-center mx-auto mb-6 text-blue-600 dark:text-blue-400 text-3xl group-hover:bg-blue-600 group-hover:text-white transition-colors duration-300">
+<span class="material-symbols-outlined">spa</span>
+</div>
+<h3 class="font-display font-bold text-xl mb-3 text-blue-900 dark:text-white">Systemic Health Support</h3>
+<p class="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+                    Because oral health is linked to heart and respiratory health, Dentpure supports your body's overall wellness.
+                </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-12 px-6">
+<div class="max-w-6xl mx-auto rounded-3xl overflow-hidden shadow-2xl bg-gradient-to-r from-blue-900 to-indigo-900 relative">
+<div class="grid md:grid-cols-2 items-center">
+<div class="p-12 flex flex-col justify-center text-white z-10">
+<div class="inline-flex items-center gap-2 text-yellow-400 font-bold mb-4 uppercase tracking-widest text-sm">
+<span class="material-symbols-outlined">star</span> Clinically Proven Results
+                </div>
+<h2 class="font-display font-bold text-5xl md:text-6xl mb-4">97%</h2>
+<h3 class="text-2xl font-semibold mb-6 text-blue-200">Saw Healthier Gums in 30 Days</h3>
+<p class="text-lg font-light mb-8 text-gray-200">
+                    "I was terrified of losing my teeth. My gums were always bleeding. After just a month of Dentpure, my dentist asked me what I had changed. My gums are pink, firm, and healthy again."
+                    <br/><span class="font-bold text-white mt-4 block">— Sarah J., Verified Buyer</span>
+</p>
+<a class="inline-flex items-center gap-2 bg-primary text-black font-bold px-8 py-4 rounded-full self-start hover:bg-primary-hover transition shadow-lg hover:shadow-xl transform hover:-translate-y-1" href="https://61f58kql-7k3vce3ml0owcgubv.hop.clickbank.net">
+                    Reclaim Your Oral Health
+                    <span class="material-symbols-outlined text-xl">arrow_right_alt</span>
+</a>
+</div>
+<div class="relative h-full min-h-[400px]">
+<img alt="Healthy smiling woman showing strong white teeth and gums" class="absolute inset-0 w-full h-full object-cover" src="images/hero.webp"/>
+<div class="absolute inset-0 bg-gradient-to-r from-blue-900 via-transparent to-transparent"></div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-6 blue-gradient dark:from-gray-900 dark:to-gray-800" id="ingredients">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-16">
+<div class="inline-block bg-white dark:bg-gray-700 rounded-full px-4 py-1 text-sm font-bold text-blue-600 dark:text-blue-300 mb-4 shadow-sm">
+                POWERED BY NATURE
+            </div>
+<h2 class="font-display font-bold text-3xl md:text-4xl text-blue-900 dark:text-white mb-4">
+                Potent Natural Ingredients<br/> for Deep Oral Restoration
+            </h2>
+<p class="max-w-2xl mx-auto text-gray-600 dark:text-gray-300">
+                A precise blend of probiotics and minerals working in synergy to rebuild your oral defense system.
+            </p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:-translate-y-1 transition duration-300 border-t-4 border-blue-500">
+<h3 class="font-display font-bold text-xl text-blue-800 dark:text-blue-300 mb-3">Lactobacillus Paracasei</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm">
+                    Known to support healthy gums by helping your sinuses stay free and open, reducing mouth breathing which dries out gums and encourages bacteria.
+                </p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:-translate-y-1 transition duration-300 border-t-4 border-blue-500">
+<h3 class="font-display font-bold text-xl text-blue-800 dark:text-blue-300 mb-3">B. Lactis BL-04®</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm">
+                    Supports the balance of mouth bacteria and helps support a healthy respiratory tract and maintains a healthy immune system.
+                </p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:-translate-y-1 transition duration-300 border-t-4 border-blue-500">
+<h3 class="font-display font-bold text-xl text-blue-800 dark:text-blue-300 mb-3">Lactobacillus Reuteri</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm">
+                    Specifically targets inflammation, helping to restore healthy oral environments and prevent the redness and swelling associated with gum disease.
+                </p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:-translate-y-1 transition duration-300 border-t-4 border-teal-500">
+<h3 class="font-display font-bold text-xl text-blue-800 dark:text-blue-300 mb-3">BLIS K12</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm">
+                    Promotes a healthy mouth environment by supporting the immune system and respiratory tract, key for preventing throat and mouth infections.
+                </p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:-translate-y-1 transition duration-300 border-t-4 border-teal-500">
+<h3 class="font-display font-bold text-xl text-blue-800 dark:text-blue-300 mb-3">BLIS M18</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm">
+                    Supports the cleanliness of the mouth and helps maintain normal tooth color, actively working to keep your teeth white and clean.
+                </p>
+</div>
+<div class="bg-white dark:bg-surface-dark p-8 rounded-2xl shadow-lg hover:-translate-y-1 transition duration-300 border-t-4 border-teal-500">
+<h3 class="font-display font-bold text-xl text-blue-800 dark:text-blue-300 mb-3">Inulin</h3>
+<p class="text-gray-600 dark:text-gray-300 text-sm">
+                    A prebiotic that feeds the good bacteria in your mouth, ensuring the probiotics can survive, multiply, and dominate harmful bacteria.
+                </p>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-6 bg-white dark:bg-gray-800 relative overflow-hidden" id="reviews">
+<div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-gray-200 dark:via-gray-700 to-transparent"></div>
+<div class="max-w-7xl mx-auto relative z-10">
+<div class="text-center mb-16">
+<div class="inline-flex items-center gap-1 bg-yellow-100 dark:bg-yellow-900/30 text-yellow-700 dark:text-yellow-400 px-4 py-1 rounded-full text-sm font-bold mb-4 border border-yellow-200 dark:border-yellow-700">
+<span class="material-symbols-outlined text-sm">stars</span> 4.9/5 Average Rating
+            </div>
+<h2 class="font-display font-bold text-3xl md:text-5xl text-blue-900 dark:text-white mb-6">
+                Loved By Thousands
+            </h2>
+<p class="text-gray-600 dark:text-gray-300 max-w-2xl mx-auto text-lg">
+                See what our community has to say about their journey to better oral health with Dentpure.
+            </p>
+</div>
+<div class="grid md:grid-cols-3 gap-8">
+<div class="bg-gray-50 dark:bg-surface-dark p-8 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 border border-gray-100 dark:border-gray-700 flex flex-col">
+<div class="flex items-center gap-1 text-yellow-400 mb-4">
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+</div>
+<p class="text-gray-700 dark:text-gray-300 text-lg italic mb-6 flex-grow">"I was skeptical at first, but after 3 weeks, my gum sensitivity is gone. I can finally drink cold water without wincing. My dentist even noticed the difference!"</p>
+<div class="flex items-center gap-4 mt-auto">
+<img alt="Jennifer S." class="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-white dark:border-gray-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1n9VsoiHWPQHPrTCJqx1364APJTcM11VRDv7PlPj5j1774YMt4u8Oa6HmjkGWCo9-ekhFeM5y_fLqaj5S6dqRy1gzEozfZjqldwCoOu_4O-MVBh7kLOfJaPlV7eP80-BT1SGCHAlddZgAhqrvbx50O1JSe9W2WO_8pddKD9VxOVVz6LCcP_QsF8tgTLjavTZBoGwrti0apDetgrhV_GEJEH9MjFn18t-P0SP5Bg08RGJO_wScrEFm6AQ7TgpiYCP5mpdAnR9jOEo"/>
+<div>
+<div class="font-bold text-blue-900 dark:text-white">Jennifer S.</div>
+<div class="text-xs text-green-600 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">verified</span> Verified Buyer</div>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 dark:bg-surface-dark p-8 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 border border-gray-100 dark:border-gray-700 flex flex-col transform md:-translate-y-4">
+<div class="flex items-center gap-1 text-yellow-400 mb-4">
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+</div>
+<p class="text-gray-700 dark:text-gray-300 text-lg italic mb-6 flex-grow">"I've struggled with bad breath for years. Nothing worked permanently until Dentpure. It feels like my mouth is actually clean from the inside, not just masked by mint."</p>
+<div class="flex items-center gap-4 mt-auto">
+<img alt="Michael R." class="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-white dark:border-gray-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBJzDn8OnUYRVdB50BEnEucQ680tXuydefYWrqY09BJ4jhURQXkrhCZGxNir_eb0_YDx09Btq8D2jxfFeUEya-q5qY2A063KYS8ORYrL7NAYhnWXA2oc9qHH0XkRpNV21fzc4BJXRIPArOvjrKL9eRVtf45EC3YR6OZZYzhDleb2xShyseBgzWM_1ZLx6-ghGT8lSxz-tc8dYgGRBEfF3A2o599UAXjAfVtUgXY2e2jem4y0bGhZe29mEzhrYY3I7jjgdjCzXgldJA"/>
+<div>
+<div class="font-bold text-blue-900 dark:text-white">Michael R.</div>
+<div class="text-xs text-green-600 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">verified</span> Verified Buyer</div>
+</div>
+</div>
+</div>
+<div class="bg-gray-50 dark:bg-surface-dark p-8 rounded-2xl shadow-sm hover:shadow-lg transition duration-300 border border-gray-100 dark:border-gray-700 flex flex-col">
+<div class="flex items-center gap-1 text-yellow-400 mb-4">
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+<span class="material-symbols-outlined fill-current">star</span>
+</div>
+<p class="text-gray-700 dark:text-gray-300 text-lg italic mb-6 flex-grow">"Finally a natural solution that makes sense. No harsh chemicals, just probiotics. My gums look pink and healthy again for the first time in a decade."</p>
+<div class="flex items-center gap-4 mt-auto">
+<img alt="Amanda B." class="w-12 h-12 rounded-full object-cover shadow-sm border-2 border-white dark:border-gray-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBLHLlLzYG2jFWth4V-Q-U_zYdDry06wpwjlZUPA9uFQyAAIT005yPMeTpK-l0o8MidwT7ma6_0feTiYhr9rPdLFyWf2e8dR3OwewtDFNehbYX0oukojLoogpZR8ksKXpp_y93toNIIvyTg3RnyII0WMAWrDrAVVASJerlEH1kMXx18KzkHuSu1J5RXdbCXiCNUqZU74VPQ1MHMUqwjj8QRa8C4xtBbuTDwzypA2nrQEiGWQkcMfY-VxP1eCciWsTwS2Pe5cHfSeiU"/>
+<div>
+<div class="font-bold text-blue-900 dark:text-white">Amanda B.</div>
+<div class="text-xs text-green-600 flex items-center gap-1"><span class="material-symbols-outlined text-[14px]">verified</span> Verified Buyer</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-6 bg-blue-900 dark:bg-black text-white relative overflow-hidden" id="order">
+<div class="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')] opacity-10"></div>
+<div class="max-w-7xl mx-auto relative z-10">
+<h2 class="font-display font-bold text-3xl md:text-5xl text-center mb-6">
+            Secure Your Supply of Dentpure
+        </h2>
+<p class="text-center text-blue-200 mb-12 max-w-2xl mx-auto text-lg">
+            Choose the package that suits your goals. We recommend the 6-bottle package to ensure a full restoration of your oral microbiome over 180 days.
+        </p>
+<div class="grid lg:grid-cols-3 gap-8 items-end max-w-6xl mx-auto">
+<div class="bg-white dark:bg-surface-dark text-gray-800 dark:text-white rounded-2xl p-6 shadow-xl border-4 border-transparent hover:border-gray-300 transition-colors">
+<div class="text-center mb-6">
+<h3 class="font-bold text-xl text-gray-500 dark:text-gray-400">Starter Pack</h3>
+<h4 class="font-display font-bold text-3xl my-2">2 BOTTLES</h4>
+<p class="text-sm font-semibold text-gray-500">60 DAY SUPPLY</p>
+</div>
+<div class="flex justify-center mb-6">
+<img alt="2 Bottles of Dentpure" class="h-40 object-contain" src="images/2-bottles.webp"/>
+</div>
+<div class="text-center mb-6">
+<div class="flex justify-center items-start">
+<span class="text-2xl font-bold mt-2">$</span>
+<span class="text-6xl font-extrabold tracking-tighter">79</span>
+<div class="flex flex-col items-start ml-2 mt-2">
+<span class="text-xs font-bold uppercase">Per</span>
+<span class="text-xs font-bold uppercase">Bottle</span>
+</div>
+</div>
+<p class="text-green-600 font-bold text-sm mt-2">YOU SAVE $200!</p>
+<p class="text-gray-500 text-xs mt-1">60 DAY GUARANTEE</p>
+</div>
+<button class="w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 mb-4 transition">
+<span class="material-symbols-outlined">shopping_cart</span> BUY NOW
+                </button>
+<div class="text-center text-xs text-gray-500">
+<p>Total: <span class="line-through">$398</span> <span class="font-bold text-black dark:text-white">$158</span></p>
+<p>+ Shipping</p>
+</div>
+</div>
+<div class="best-value-bg text-white rounded-2xl p-6 shadow-2xl transform lg:-translate-y-4 border-4 border-yellow-400 relative z-20">
+<div class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-yellow-400 text-blue-900 font-bold px-6 py-1 rounded-full text-sm uppercase tracking-wider shadow-lg whitespace-nowrap">
+                    Best Value - Recommended
+                </div>
+<div class="text-center mb-6 mt-4">
+<h4 class="font-display font-bold text-4xl my-2">6 BOTTLES</h4>
+<p class="text-sm font-semibold opacity-90">180 DAY SUPPLY</p>
+</div>
+<div class="flex justify-center mb-6">
+<img alt="6 Bottles of Dentpure" class="h-48 object-contain drop-shadow-lg" src="images/6-bottles.webp"/>
+</div>
+<div class="text-center mb-6">
+<div class="flex justify-center items-start">
+<span class="text-2xl font-bold mt-2">$</span>
+<span class="text-7xl font-extrabold tracking-tighter">49</span>
+<div class="flex flex-col items-start ml-2 mt-2">
+<span class="text-xs font-bold uppercase opacity-80">Per</span>
+<span class="text-xs font-bold uppercase opacity-80">Bottle</span>
+</div>
+</div>
+<p class="text-yellow-300 font-bold text-sm mt-2">YOU SAVE $780!</p>
+<p class="text-white text-xs mt-1 font-bold">96% OF CUSTOMERS CHOOSE THIS</p>
+</div>
+<button class="w-full bg-primary hover:bg-primary-hover text-black font-bold py-4 rounded-lg flex items-center justify-center gap-2 mb-4 shadow-lg transition transform hover:scale-105">
+<span class="material-symbols-outlined">shopping_cart</span> ADD TO CART
+                </button>
+<div class="text-center text-xs opacity-90">
+<p>Total: <span class="line-through opacity-70">$1074</span> <span class="font-bold">$294</span></p>
+<p class="font-bold text-yellow-300 flex items-center justify-center gap-1"><span class="material-symbols-outlined text-xs">local_shipping</span> FREE US SHIPPING</p>
+</div>
+</div>
+<div class="bg-white dark:bg-surface-dark text-gray-800 dark:text-white rounded-2xl p-6 shadow-xl border-4 border-transparent hover:border-gray-300 transition-colors">
+<div class="text-center mb-6">
+<h3 class="font-bold text-xl text-gray-500 dark:text-gray-400">Popular Choice</h3>
+<h4 class="font-display font-bold text-3xl my-2">3 BOTTLES</h4>
+<p class="text-sm font-semibold text-gray-500">90 DAY SUPPLY</p>
+</div>
+<div class="flex justify-center mb-6">
+<img alt="3 Bottles of Dentpure" class="h-40 object-contain" src="images/3-bottles.webp"/>
+</div>
+<div class="text-center mb-6">
+<div class="flex justify-center items-start">
+<span class="text-2xl font-bold mt-2">$</span>
+<span class="text-6xl font-extrabold tracking-tighter">69</span>
+<div class="flex flex-col items-start ml-2 mt-2">
+<span class="text-xs font-bold uppercase">Per</span>
+<span class="text-xs font-bold uppercase">Bottle</span>
+</div>
+</div>
+<p class="text-green-600 font-bold text-sm mt-2">YOU SAVE $360!</p>
+<p class="text-gray-500 text-xs mt-1">60 DAY GUARANTEE</p>
+</div>
+<button class="w-full bg-gray-200 dark:bg-gray-700 hover:bg-gray-300 dark:hover:bg-gray-600 text-gray-800 dark:text-white font-bold py-4 rounded-lg flex items-center justify-center gap-2 mb-4 transition">
+<span class="material-symbols-outlined">shopping_cart</span> BUY NOW
+                </button>
+<div class="text-center text-xs text-gray-500">
+<p>Total: <span class="line-through">$597</span> <span class="font-bold text-black dark:text-white">$207</span></p>
+<p class="text-red-500 font-bold">+ FREE US SHIPPING</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-16 px-6 bg-blue-800 dark:bg-gray-900 text-white">
+<div class="max-w-5xl mx-auto bg-blue-900/50 dark:bg-gray-800/50 border border-blue-700 dark:border-gray-700 rounded-3xl p-8 md:p-12 relative overflow-hidden backdrop-blur-sm">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(#ffffff33_1px,transparent_1px)] [background-size:16px_16px]"></div>
+<div class="grid md:grid-cols-2 gap-12 items-center relative z-10">
+<div class="relative">
+<div class="absolute -top-4 -left-4 bg-red-600 text-white text-xs font-bold px-2 py-1 transform -rotate-12 shadow-md">SALE</div>
+<img alt="Dentpure Bottle" class="w-full max-w-sm mx-auto drop-shadow-2xl" src="images/1-btl-v2.webp"/>
+</div>
+<div>
+<h2 class="font-display font-bold text-3xl md:text-4xl text-primary mb-4">Urgent: Low Stock Warning</h2>
+<p class="mb-6 text-gray-300 leading-relaxed">
+                    Due to high demand and our rigorous sourcing of premium natural ingredients, inventory is depleting fast. 
+                    Secure your <strong>Dentpure</strong> supply now to guarantee your journey to a healthier smile isn't interrupted.
+                </p>
+<div class="mb-6">
+<p class="text-gray-400 line-through text-lg">Retail: $179</p>
+<p class="text-3xl font-bold">Today: <span class="text-primary text-5xl">$49</span></p>
+</div>
+<a class="inline-flex items-center gap-2 bg-primary text-black font-bold text-lg px-8 py-4 rounded-full hover:bg-primary-hover transition shadow-lg transform hover:scale-105" href="https://61f58kql-7k3vce3ml0owcgubv.hop.clickbank.net">
+                    Check Availability <span class="material-symbols-outlined">inventory_2</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-6 blue-gradient dark:from-gray-800 dark:to-gray-900 text-center">
+<div class="max-w-4xl mx-auto">
+<h2 class="font-display font-bold text-3xl md:text-4xl text-blue-900 dark:text-white mb-6">
+            100% Satisfaction Guarantee <br/>(60-Day Money Back)
+        </h2>
+<div class="flex flex-col md:flex-row items-center justify-center gap-8 mb-8">
+<div class="w-48 h-48 flex-shrink-0 relative">
+<div class="absolute inset-0 border-4 border-yellow-500 rounded-full border-dashed rotate-seal"></div>
+<div class="absolute inset-2 bg-blue-900 rounded-full flex flex-col items-center justify-center text-white p-2">
+<span class="text-xs font-bold tracking-widest uppercase mb-1 text-yellow-400">Ironclad</span>
+<span class="text-4xl font-black text-yellow-400">60</span>
+<span class="text-xs font-bold tracking-widest uppercase mt-1 text-yellow-400">Day Guarantee</span>
+<div class="flex text-yellow-400 mt-1">
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+<span class="material-symbols-outlined text-sm">star</span>
+</div>
+</div>
+</div>
+<div class="text-left">
+<p class="text-gray-700 dark:text-gray-300 leading-relaxed mb-6">
+                    We are so confident in the power of Dentpure to transform your teeth and gums that we are willing to take all the risk. Use Dentpure for 60 days. If you don't see your gums becoming healthier, your teeth stronger, and your breath fresher, simply email us for a full refund. No questions asked.
+                </p>
+<div class="flex gap-4 justify-center md:justify-start flex-wrap">
+<div class="flex items-center gap-2 bg-white dark:bg-gray-700 px-4 py-2 rounded-full shadow-sm text-sm font-semibold text-gray-700 dark:text-gray-200">
+<span class="material-symbols-outlined text-blue-600">verified</span> GMP Certified
+                    </div>
+<div class="flex items-center gap-2 bg-white dark:bg-gray-700 px-4 py-2 rounded-full shadow-sm text-sm font-semibold text-gray-700 dark:text-gray-200">
+<span class="material-symbols-outlined text-blue-600">flag</span> Made in USA
+                    </div>
+<div class="flex items-center gap-2 bg-white dark:bg-gray-700 px-4 py-2 rounded-full shadow-sm text-sm font-semibold text-gray-700 dark:text-gray-200">
+<span class="material-symbols-outlined text-green-600">eco</span> 100% Natural
+                    </div>
+<div class="flex items-center gap-2 bg-white dark:bg-gray-700 px-4 py-2 rounded-full shadow-sm text-sm font-semibold text-gray-700 dark:text-gray-200">
+<span class="material-symbols-outlined text-blue-600">science</span> Non-GMO
+                    </div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="py-20 px-6 bg-white dark:bg-gray-800">
+<div class="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+<div>
+<h2 class="font-display font-bold text-3xl md:text-4xl text-blue-900 dark:text-white mb-6">
+                Say Goodbye to Painful Dentist Visits
+            </h2>
+<p class="text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
+                Imagine walking into your next dental checkup with total confidence, knowing your gums are firm and your teeth are clean. Dentpure gives you the power to take control of your oral health from the comfort of your home.
+            </p>
+<ul class="space-y-4 mb-8">
+<li class="flex items-center text-gray-700 dark:text-gray-300">
+<div class="bg-green-100 dark:bg-green-900/30 p-1 rounded-full mr-3">
+<span class="material-symbols-outlined text-green-600 dark:text-green-400 text-sm">check</span>
+</div>
+                    Targeted Bacterial Defense
+                </li>
+<li class="flex items-center text-gray-700 dark:text-gray-300">
+<div class="bg-green-100 dark:bg-green-900/30 p-1 rounded-full mr-3">
+<span class="material-symbols-outlined text-green-600 dark:text-green-400 text-sm">check</span>
+</div>
+                    Strengthens Enamel Naturally
+                </li>
+<li class="flex items-center text-gray-700 dark:text-gray-300">
+<div class="bg-green-100 dark:bg-green-900/30 p-1 rounded-full mr-3">
+<span class="material-symbols-outlined text-green-600 dark:text-green-400 text-sm">check</span>
+</div>
+                    Easy-to-Swallow Daily Capsule
+                </li>
+<li class="flex items-center text-gray-700 dark:text-gray-300">
+<div class="bg-green-100 dark:bg-green-900/30 p-1 rounded-full mr-3">
+<span class="material-symbols-outlined text-green-600 dark:text-green-400 text-sm">check</span>
+</div>
+                    No Harsh Chemicals or Stimulants
+                </li>
+</ul>
+<a class="inline-flex items-center gap-2 bg-primary text-black font-bold px-8 py-4 rounded-full hover:bg-primary-hover transition shadow-md w-full md:w-auto justify-center" href="https://61f58kql-7k3vce3ml0owcgubv.hop.clickbank.net">
+                Yes, Transform My Smile <span class="material-symbols-outlined">arrow_forward</span>
+</a>
+</div>
+<div class="flex justify-center">
+<img alt="Group of Dentpure Bottles" class="max-w-full h-auto drop-shadow-xl transform hover:scale-105 transition duration-500" src="images/3-btl-v2.webp"/>
+</div>
+</div>
+</section>
+<section class="py-20 px-6 bg-blue-50 dark:bg-gray-900" id="faq">
+<div class="max-w-3xl mx-auto">
+<h2 class="font-display font-bold text-3xl md:text-4xl text-center text-blue-900 dark:text-white mb-12">
+            Common Questions
+        </h2>
+<div class="space-y-4">
+<details class="bg-white dark:bg-surface-dark rounded-xl shadow-sm group border border-gray-100 dark:border-gray-700">
+<summary class="list-none flex justify-between items-center p-6 cursor-pointer font-bold text-gray-800 dark:text-white text-lg">
+                    How and when should I take Dentpure?
+                    <span class="material-symbols-outlined transform group-open:rotate-180 transition-transform text-gray-400">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700 pt-4">
+                    We recommend you slowly chew a tablet every morning to support the health of your entire body, gums and teeth.
+                </div>
+</details>
+<details class="bg-white dark:bg-surface-dark rounded-xl shadow-sm group border border-gray-100 dark:border-gray-700">
+<summary class="list-none flex justify-between items-center p-6 cursor-pointer font-bold text-gray-800 dark:text-white text-lg">
+                    How does Dentpure work?
+                    <span class="material-symbols-outlined transform group-open:rotate-180 transition-transform text-gray-400">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700 pt-4">
+                    Dentpure works by repopulating your mouth with good bacteria. It contains a unique blend of probiotics and nutrients that support the clinical repopulation of beneficial bacteria in your mouth, which helps maintain a healthy oral environment, supports gum health, and keeps breath fresh.
+                </div>
+</details>
+<details class="bg-white dark:bg-surface-dark rounded-xl shadow-sm group border border-gray-100 dark:border-gray-700">
+<summary class="list-none flex justify-between items-center p-6 cursor-pointer font-bold text-gray-800 dark:text-white text-lg">
+                    Is Dentpure safe for everyone?
+                    <span class="material-symbols-outlined transform group-open:rotate-180 transition-transform text-gray-400">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700 pt-4">
+                    Dentpure is designed for all ages and medical conditions. All ingredients are proven to be safe in clinical trials and are constantly tested for purity and to ensure against toxins and contaminants. As always, if you have a medical condition or are taking other prescription medication, we advise you to show a bottle of Dentpure to your doctor before you take it, just to be at ease.
+                </div>
+</details>
+<details class="bg-white dark:bg-surface-dark rounded-xl shadow-sm group border border-gray-100 dark:border-gray-700">
+<summary class="list-none flex justify-between items-center p-6 cursor-pointer font-bold text-gray-800 dark:text-white text-lg">
+                    How many bottles should I order?
+                    <span class="material-symbols-outlined transform group-open:rotate-180 transition-transform text-gray-400">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700 pt-4">
+                    It takes time to restore the balance of your oral microbiome. Most of our customers order 6 bottles at a time and many double their order because they want to share the benefits of this oral health support formula with their loved ones. It is a smart choice because those who buy the 6 bottle pack get a massive discount, free shipping and 2 free online guides. That's a lot of value and savings, especially since, once they start seeing results, our clients usually want to reorder.
+                </div>
+</details>
+<details class="bg-white dark:bg-surface-dark rounded-xl shadow-sm group border border-gray-100 dark:border-gray-700">
+<summary class="list-none flex justify-between items-center p-6 cursor-pointer font-bold text-gray-800 dark:text-white text-lg">
+                    What if it doesn't work for me?
+                    <span class="material-symbols-outlined transform group-open:rotate-180 transition-transform text-gray-400">expand_more</span>
+</summary>
+<div class="px-6 pb-6 text-gray-600 dark:text-gray-300 leading-relaxed border-t border-gray-100 dark:border-gray-700 pt-4">
+                     You are covered by our 60-day money-back guarantee. If you are not satisfied with the results, you can return the unused portion for a full refund. We want you to be completely happy with your purchase.
+                </div>
+</details>
+</div>
+<div class="mt-12 text-center">
+<a class="inline-flex items-center gap-2 bg-primary text-black font-display font-bold text-lg px-12 py-5 rounded-full hover:bg-primary-hover transition shadow-lg transform hover:scale-105" href="https://61f58kql-7k3vce3ml0owcgubv.hop.clickbank.net">
+                Start My Transformation <span class="material-symbols-outlined">rocket_launch</span>
+</a>
+<p class="text-xs text-gray-500 mt-4">Join thousands of happy customers today.</p>
+</div>
+</div>
+</section>
+<footer class="bg-secondary text-white py-12 px-6 border-t border-gray-700">
+<div class="max-w-7xl mx-auto">
+<div class="grid md:grid-cols-4 gap-8 mb-8">
+<div class="col-span-1 md:col-span-2">
+<div class="font-display font-bold text-2xl tracking-tight flex items-center gap-2 mb-4">
+<span class="material-symbols-outlined text-primary">dentistry</span> Dentpure
+                </div>
+<p class="text-gray-400 text-sm leading-relaxed max-w-sm">
+                    Revolutionizing dental care with nature's most potent probiotics. Restoring smiles, confidence, and health from the inside out.
+                </p>
+</div>
+<div>
+<h4 class="font-bold mb-4 text-primary uppercase text-sm tracking-wider">Quick Links</h4>
+<ul class="space-y-2 text-sm text-gray-400">
+<li><a class="hover:text-white transition" href="#science">Science</a></li>
+<li><a class="hover:text-white transition" href="#ingredients">Ingredients</a></li>
+<li><a class="hover:text-white transition" href="#faq">FAQ</a></li>
+<li><a class="hover:text-white transition" href="https://61f58kql-7k3vce3ml0owcgubv.hop.clickbank.net">Order Now</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold mb-4 text-primary uppercase text-sm tracking-wider">Legal</h4>
+<ul class="space-y-2 text-sm text-gray-400">
+<li><a class="hover:text-white transition" href="#">Privacy Policy</a></li>
+<li><a class="hover:text-white transition" href="#">Terms of Service</a></li>
+<li><a class="hover:text-white transition" href="#">Disclaimer</a></li>
+</ul>
+</div>
+</div>
+    <footer style="background:##2d3e50; padding:40px 20px; text-align:center; font-size:14px; color:#666; line-height:1.7;">
+
+    <p style="max-width:900px; margin:0 auto 18px; font-size:14px; color:#777;">
+        This website is an independent product review resource. The content provided is for informational and educational purposes only and 
+        does not substitute professional medical advice, diagnosis, or treatment. Consult your physician before making any changes to your 
+        health routine, supplements, or medication. The statements on this website have not been evaluated by the Food and Drug Administration.
+        Products referenced are not intended to diagnose, treat, cure, or prevent any disease.
+    </p>
+
+    <p style="max-width:900px; margin:0 auto 18px; font-size:14px; color:#777;">
+        We do not sell any products directly. All purchases are handled exclusively through the official vendor’s website. As an affiliate, 
+        we may earn a commission if you choose to buy through links on this page, at no additional cost to you. This commission does not 
+        influence our review process or opinions.
+    </p>
+
+    <p style="font-size:13px; color:#888; margin-top:25px;">
+        Copyright © 2025 — All Rights Reserved
+    </p>
+
+</footer>
+</div>
+</body></html>
